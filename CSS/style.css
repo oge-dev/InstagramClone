@@ -22,9 +22,10 @@ header {
     height: 100vh;
     width: 20%;
     /* background-color: goldenrod; */
-    padding-left: 18px;
+    margin-left: 18px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid #ccc;
 }
 .logo_wrapper{
     height: 10vh;
@@ -57,25 +58,49 @@ main {
     height: auto;
 }
 
-.storiespost_wrapper {
+main .storiespost_wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
     padding: 20px;
 }
-
-/*
+.stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_wrapper .img_stories{
+    background-image: url('../images/gradient_circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8px;
+}
+.section_wrapper .img_stories img{
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
 section fieldset{
-     margin-right: 20px;
-    margin-left: 20px; 
-}*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     border: 1px solid #ccc; 
+     padding: 8px;
+     width: 400px;
+     border-radius: 20px;
+    
+}
 section fieldset legend {
     background-color: white;
     text-align: center;
     padding: 8px;
-    border-radius: 6px;
+    border-radius: 18px;
+    font-size: 16px;
 }
-
+section .imgstoriespost_wrapper{
+    justify-content: space-around;
+    align-items: center;
+}
 aside {
     padding: 20px;
 }
