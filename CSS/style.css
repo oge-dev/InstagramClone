@@ -1,0 +1,72 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+
+}
+
+.pge_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20%;
+    background-color: goldenrod;
+    justify-content: space-evenly;
+    padding-left: 8px;
+}
+
+nav .navbar_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.navbarlinks_wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: darksalmon;
+    height: auto;
+}
+
+.storiespost_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/*
+section fieldset{
+     margin-right: 20px;
+    margin-left: 20px; 
+}*/
+section fieldset legend {
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+aside {
+    padding: 20px;
+}
