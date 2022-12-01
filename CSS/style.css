@@ -21,23 +21,32 @@ header {
     flex-direction: column;
     height: 100vh;
     width: 20%;
-    background-color: goldenrod;
-    justify-content: space-evenly;
-    padding-left: 8px;
+    /* background-color: goldenrod; */
+    padding-left: 18px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.logo_wrapper{
+    height: 10vh;
+    padding-top: 5vh;
+}
 nav .navbar_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 80vh;
+    height: 90vh;
+    position: fixed;
 }
 
 .navbarlinks_wrapper a {
     text-decoration: none;
     color: black;
 }
-
+.navbarlinks_wrapper #nav_profile{
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
 main {
     width: 80%;
     display: flex;
