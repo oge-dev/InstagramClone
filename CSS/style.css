@@ -5,12 +5,10 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-
-}
+body {}
 
 .pge_wrapper {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -19,35 +17,40 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
     height: 100vh;
     width: 20%;
-    /* background-color: goldenrod; */
-    margin-left: 18px;
+    left: 8px;
+    top: 18px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     border-right: 1px solid #ccc;
 }
-.logo_wrapper{
-    height: 10vh;
-    padding-top: 5vh;
-}
+
+.logo_wrapper {}
+
 nav .navbar_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 90vh;
-    position: fixed;
 }
 
 .navbarlinks_wrapper a {
     text-decoration: none;
     color: black;
 }
-.navbarlinks_wrapper #nav_profile{
+
+/* .navbarlinks_wrapper i{
+    z-index: 2011px;
+} */
+.navbarlinks_wrapper #nav_profile {
     border-radius: 50%;
     position: relative;
     top: 5px;
 }
+
 main {
     width: 80%;
     display: flex;
@@ -55,41 +58,29 @@ main {
     justify-content: space-around;
     flex-wrap: nowrap;
     background-color: darksalmon;
-    height: auto;
+    position: relative;
+    left: 20%;
+    height: 800px;
 }
 
 main .storiespost_wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-.stories{
-    display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
-.section_wrapper .img_stories{
-    background-image: url('../images/gradient_circle.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 8px;
-}
-.section_wrapper .img_stories img{
-    border-radius: 50%;
-    object-fit: cover;
-    
-}
-section fieldset{
+
+section fieldset {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-     border: 1px solid #ccc; 
-     padding: 8px;
-     width: 400px;
-     border-radius: 20px;
-    
+    border: 1px solid #ccc;
+    padding: 2px 0 6px;
+    width: 422px;
+    border-radius: 18px;
+
 }
+
 section fieldset legend {
     background-color: white;
     text-align: center;
@@ -97,10 +88,37 @@ section fieldset legend {
     border-radius: 18px;
     font-size: 16px;
 }
-section .imgstoriespost_wrapper{
-    justify-content: space-around;
+
+.stories {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
 }
+
+.section_wrapper .img_stories {
+    background-image: url('../images/gradient_circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4px;
+}
+
+.section_wrapper .img_stories img {
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.storiespost_wrapper .articles_content {
+    border: 1px solid #ccc;
+}
+
 aside {
-    padding: 20px;
+    margin: 10px;
+}
+
+aside .aside_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
