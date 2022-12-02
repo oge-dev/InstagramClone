@@ -12,113 +12,138 @@ body {}
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+
 }
 
+/* The header */
 header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    position: fixed;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 12px 20px;
+    color: rgb(38, 38, 38);
+    line-height: 4;
     height: 100vh;
-    width: 20%;
-    left: 8px;
-    top: 18px;
+    width: 18%;
+    position: fixed;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     border-right: 1px solid #ccc;
 }
 
-.logo_wrapper {}
+.logo_wrapper svg {
+    color: rgb(38, 38, 38);
+    fill: rgb(38, 38, 38);
+    height: 29;
+    width: 103;
+}
 
+/* the navigation bar */
 nav .navbar_wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 90vh;
+    flex-grow: 1;
 }
 
 .navbarlinks_wrapper a {
     text-decoration: none;
-    color: black;
+    color: rgb(38, 38, 38);
 }
 
-/* .navbarlinks_wrapper i{
-    z-index: 2011px;
-} */
 .navbarlinks_wrapper #nav_profile {
     border-radius: 50%;
     position: relative;
     top: 5px;
 }
 
+/*  the main section*/
 main {
     width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
-    background-color: darksalmon;
     position: relative;
     left: 20%;
     height: 800px;
+    margin-top: 28px;
+
 }
 
+/* the stories and post */
 main .storiespost_wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+    flex-shrink: 0;
 }
 
+/* the stories section*/
 section fieldset {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border: 1px solid #ccc;
-    padding: 2px 0 6px;
+    padding: 12px 0 8px;
     width: 422px;
-    border-radius: 18px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* position: relative; */
 
 }
 
 section fieldset legend {
     background-color: white;
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     border-radius: 18px;
-    font-size: 16px;
+    box-shadow: 1px 1px 10px rgb(190, 189, 189);
+    font-size: 12px;
+    color: rgb(38, 38, 38);
+    font-weight: 600;
+    margin-top: 8px;
+    position: fixed;
+    top: -4px;
 }
 
-.stories {
+section .stories {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-size: 11px;
 }
 
-.section_wrapper .img_stories {
+section .img_stories {
     background-image: url('../images/gradient_circle.png');
     background-position: center;
     background-repeat: no-repeat;
     padding: 4px;
 }
 
-.section_wrapper .img_stories img {
+section .img_stories img {
     border-radius: 50%;
     object-fit: cover;
-
 }
 
-.storiespost_wrapper .articles_content {
+/* the post articles */
+article .articles_wrapper {}
+
+article .post {
     border: 1px solid #ccc;
+    border-radius: 8px;
+    /* padding: 2px 0 6px; */
+    width: 422px;
 }
 
-aside {
-    margin: 10px;
-}
+/* the follows which is aside */
+aside {}
 
 aside .aside_wrapper {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; */
 }
