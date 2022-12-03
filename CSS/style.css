@@ -64,7 +64,6 @@ main {
     flex-wrap: nowrap;
     position: relative;
     left: 20%;
-    height: 800px;
     margin-top: 28px;
 
 }
@@ -214,8 +213,59 @@ article .textarea_wrapper textarea {
 }
 
 /* the follows which is aside */
+aside {
+    margin-top: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 aside .aside_wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+aside .aside_headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+aside .details_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+aside .details_profile a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+}
+
+aside .details_profile img {
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+aside .details_name a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-weight: 600;
+}
+
+aside .name_gray {
+    color: gray;
+}
+
+aside .switch_account a {
+    text-decoration: none;
+    color: rgb(7, 184, 253);
+}
+/* CSS follows suggestions */
+aside .aside_content {
+    margin-top: 18px;
 }
