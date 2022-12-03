@@ -237,8 +237,9 @@ aside .aside_headline {
 aside .details_wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    /* align-items: center; */
+    align-items: flex-start;
 }
 
 aside .details_profile a {
