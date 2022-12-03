@@ -265,7 +265,46 @@ aside .switch_account a {
     text-decoration: none;
     color: rgb(7, 184, 253);
 }
+
 /* CSS follows suggestions */
 aside .aside_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+aside .follows_headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside .follows_headline .for_you {
+    color: gray;
+    font-weight: 600;
+}
+
+aside .follows_headline a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+aside .follows_content {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside .follows_content .follows_img img {
+    border-radius: 50%;
+}
+
+footer {
+    color: #ccc;
+    font-size: 12px;
     margin-top: 18px;
 }
