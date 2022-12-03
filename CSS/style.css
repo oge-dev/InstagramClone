@@ -239,7 +239,7 @@ aside .details_wrapper {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: center;
 }
 
 aside .details_profile a {
@@ -261,7 +261,10 @@ aside .details_name a {
 aside .name_gray {
     color: gray;
 }
-
+aside .switch_account{
+   position: relative;
+   bottom: 12.8px;
+}
 aside .switch_account a {
     text-decoration: none;
     color: rgb(7, 184, 253);
