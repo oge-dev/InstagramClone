@@ -261,10 +261,12 @@ aside .details_name a {
 aside .name_gray {
     color: gray;
 }
-aside .switch_account{
-   position: relative;
-   bottom: 12.8px;
+
+aside .switch_account {
+    position: relative;
+    bottom: 12.8px;
 }
+
 aside .switch_account a {
     text-decoration: none;
     color: rgb(7, 184, 253);
@@ -301,14 +303,35 @@ aside .follows_content {
     margin-top: 8px;
     display: flex;
     flex-direction: column;
+    color: rgb(38, 38, 38);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+aside .follows_content .follows_img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 aside .follows_content .follows_img img {
+    margin-right: 8px;
     border-radius: 50%;
+}
+
+aside .follows_content .follows_writeup {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .follows_content .follows_writeup p:nth-child(2) {
+    color: gray;
+    font-size: 10.6px;
 }
 
 footer {
     color: #ccc;
     font-size: 12px;
-    margin-top: 18px;
+    margin-top: 88px;
 }
