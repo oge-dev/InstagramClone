@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* The header */
@@ -26,7 +27,6 @@ header {
     width: 18%;
     position: fixed;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
     border-right: 1px solid #ccc;
 }
 
@@ -86,7 +86,6 @@ section fieldset {
     padding: 12px 0 8px;
     width: 422px;
     border-radius: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* position: relative; */
 
 }
@@ -118,7 +117,7 @@ section .stories {
 }
 
 section .img_stories {
-    background-image: url('../images/gradient_circle.png');
+    background-image: url('../assets/images/gradient_circle.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 66px 66px;
