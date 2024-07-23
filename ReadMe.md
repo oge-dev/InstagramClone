@@ -1,8 +1,6 @@
-Here's an example of a README file for an Instagram clone project created using HTML and CSS:
+# Instagram Clone
 
 ---
-
-# Instagram Clone
 
 This project is a simple clone of the Instagram homepage created using HTML and CSS. It aims to replicate the basic layout and design of Instagram's main interface. This project does not include any backend functionality and is purely for front-end practice.
 
@@ -18,7 +16,7 @@ This project is a simple clone of the Instagram homepage created using HTML and 
 
 ## Demo
 
-You can view the live demo of this project [here](#).
+You can view the live demo of this project [here](https://oge-dev.github.io/InstagramClone/).
 
 ## Features
 
@@ -87,8 +85,4 @@ Contributions are welcome! If you have any improvements or suggestions, please c
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README file to better suit your project and include any additional information you find relevant.
+This project is not licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
