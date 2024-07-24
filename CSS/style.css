@@ -353,6 +353,6 @@ footer .footer_links a {
   text-decoration: none;
   color: #ccc;
 }
-/* footer .footer_links a:hover {
+footer .footer_links a:hover {
   text-decoration: underline;
-} */
+}
