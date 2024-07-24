@@ -1,7 +1,5 @@
 # Instagram Clone
 
----
-
 This project is a simple clone of the Instagram homepage created using HTML and CSS. It aims to replicate the basic layout and design of Instagram's main interface. This project does not include any backend functionality and is purely for front-end practice.
 
 ## Table of Contents
@@ -20,7 +18,6 @@ You can view the live demo of this project [here](https://oge-dev.github.io/Inst
 
 ## Features
 
-- Responsive design that adapts to different screen sizes
 - Basic structure and layout of the Instagram homepage
 - Header with logo and navigation icons
 - Main feed with posts
@@ -38,7 +35,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/instagram-clone.git
+   git clone https://github.com/oge-dev/InstagramClone.git
    ```
 
 2. **Navigate to the project directory:**
@@ -55,7 +52,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-Once you open the `index.html` file in your browser, you will see a static representation of the Instagram homepage. You can resize the browser window to see the responsive design in action.
+Once you open the `index.html` file in your browser, you will see a static representation of the Instagram homepage.
 
 ## Contributing
 
@@ -85,4 +82,4 @@ Contributions are welcome! If you have any improvements or suggestions, please c
 
 ## License
 
-This project is not licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is not licensed under the MIT License. See the [LICENSE](#) file for details.
